@@ -1,4 +1,7 @@
-:root {
+@import url('https://fonts.googleapis.com/css?family=Bungee|Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+* {
     margin: 0px;
     padding: 0px;
 
@@ -7,9 +10,11 @@
     width: 940px;
 }
 
-.header .menu {
-    background: url(img/first.png) no-repeat center top / cover; 
+header  {
+    background: url('../img/first.png') no-repeat center top / cover; 
     height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 .container {
     width: 930px;
@@ -214,5 +219,3 @@ footer {
 .h3 {
     text-align: right;
 }
-
-
